@@ -1,5 +1,8 @@
 -ignorewarnings
 
+# --- Toast library ---
+-keep class com.example.dynamictoast.**
+
 # --- Glide ---
 -keep public enum com.bumptech.glide.load.ImageHeaderParser$** {
   **[] $VALUES;
